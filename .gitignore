@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Credentials / secrets — never commit these
+.env
+*.pem
+
+# Collected data
+data/
+*.parquet
+*.jsonl
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
